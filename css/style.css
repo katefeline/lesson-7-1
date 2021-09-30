@@ -135,11 +135,17 @@ p {
 
 .main__section__products {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .main__section__item {
-    padding: 60px 25px;
     text-align: center;
+    justify-content: space-between;
+    max-width: 950px;
+}
+
+.main__section__image img {
+    display: inline-block;
 }
 
 .main__section__item:last-child {
@@ -153,6 +159,9 @@ p {
 
 .main__section__item p {
     font-size: 14px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 .main__section__item img {
@@ -162,13 +171,13 @@ p {
 
 .main__section__content {
     display: flex;
-    margin: 50px;
 }
 
 .main__wrapper h2 {
     font-size: 24px;
     color: gray;
     padding-left: 30px;
+    margin-bottom: 30px;
 }
 
 .main__cart {
